@@ -2,17 +2,18 @@ package com.mkpits.constructor;
 
 public class Constructor {
 
-	int pincode =234667 , id;
+	int pincode =234667 , id=34;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
        Constructor obj1 = new Constructor();
        Constructor obj2 = new Constructor(345567, 122370);
        Constructor obj3 = new Constructor(obj1);
-      // Constructor obj4 = new Constructor(obj2); it is not printed still this will give output 0
+     // Constructor obj4 = new Constructor(obj2);
+       //it is not printed still this will give output 0
        
         
        
-       obj1.getAddition(12,13);
+      obj1.getAddition(12,13);
 	}
 
 	public void getAddition(int a, int b) {
@@ -37,17 +38,15 @@ public class Constructor {
 		
 	}
 	public Constructor(Constructor o) {
-//		System.out.println("Contructor with Object");
+	System.out.println("Contructor with Object");
 	System.out.println(o.pincode);
-//		System.out.println(o.id);
+   System.out.println(o.id);
+   
     //obj3.getAddition(45,56 );
 		//pincode = o.pincode;
 		
 	}
-	public Constructor(int a){
-	}
- {
-	}
+	
 		
 	}
 

@@ -7,7 +7,7 @@ public class CallingConstructor {
   Constructor  n = new Constructor();
   //n.getAddition(10,230);
 
-	Constructor o = new Constructor(0123, 23444);
+	//Constructor o = new Constructor(0123, 23444);
 	
 	//System.out.println(obj2.pincode);
   
