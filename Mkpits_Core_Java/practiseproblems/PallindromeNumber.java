@@ -15,6 +15,8 @@ public class PallindromeNumber {
 		int temp, reverse = 0 ,remainder ;
 			
 		temp = num;
+		//temp is a temporary variable;
+		//reverse is used here to store reverse number 
 		
 		while(temp!=0) {
 			remainder = temp%10;
