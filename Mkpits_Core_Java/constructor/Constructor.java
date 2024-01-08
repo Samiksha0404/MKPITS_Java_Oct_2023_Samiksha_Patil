@@ -8,12 +8,16 @@ public class Constructor {
        Constructor obj1 = new Constructor();
        Constructor obj2 = new Constructor(345567, 122370);
        Constructor obj3 = new Constructor(obj1);
-     // Constructor obj4 = new Constructor(obj2);
+      Constructor obj4 = new Constructor(obj2);
        //it is not printed still this will give output 0
        
         
        
       obj1.getAddition(12,13);
+      
+//      int a=10;
+//      String n = Integer.toString(a);
+//      System.out.println(a);
 	}
 
 	public void getAddition(int a, int b) {
@@ -44,10 +48,11 @@ public class Constructor {
    
     //obj3.getAddition(45,56 );
 		//pincode = o.pincode;
-		
+	}
+	
 	}
 	
 		
-	}
+	
 
 
