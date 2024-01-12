@@ -6,7 +6,8 @@ import java.io.InputStreamReader;
 
 public class RandomValue {
 
-	public static void main(String[] args) throws NumberFormatException, IOException {
+	public static void main(String[] args) throws NumberFormatException, IOException
+	{
 		// TODO Auto-generated method stub
      int randomValue = (int) Math.floor(Math.random()*100);
      
@@ -14,29 +15,31 @@ public class RandomValue {
      
      System.out.println("You have 10 attempts to Enter a number \n "
      		+ "that must matched with generated number");
-     for(int counter = 1;counter<=10;counter++) {
+     for(int counter = 1;counter<=10;counter++) 
+     {
      int userValue = Integer.parseInt(br.readLine());
      
-     if(userValue==randomValue) {
+     if(userValue==randomValue)
+     {
     	 System.out.println("you have enter the right value, your value matched with the generated value");
+    	 
     	 System.out.println("\nYou have enter right value at "+counter+" attempt");
     	 break;
     	 
-     }else if( userValue < randomValue){
+     }else if( userValue < randomValue)
+     {
     	 System.out.println(" your value is less than the generated value, renter your value, " +counter +" attempt");
      }
      
-     else {
+     else
+     {
     	 System.out.println(" your value is greater than the generated value, renter your value, "+counter+" attempt");
      }
      System.out.println();
-     if(counter==10) {
+     if(counter==10)
+     {
     	 System.out.println("your attempts are finished");
      }
+     }
 	}
-     S=83
-    		 w=87
-    		 
-   
-}
 }
