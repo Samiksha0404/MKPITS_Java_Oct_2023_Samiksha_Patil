@@ -8,7 +8,7 @@ public class Length {
 		Length l = new Length();
 		l.removeCharacter();
 		
-      String name[]= new String[];
+      String name[]= new String[10];
 	}
 
 	private void removeCharacter() {
@@ -23,4 +23,5 @@ public class Length {
 		}
 	}
 
-}
+}}
+
