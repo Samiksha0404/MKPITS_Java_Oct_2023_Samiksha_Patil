@@ -1,6 +1,7 @@
 package com.mkpits.collection;
 
 import java.util.ArrayList;
+import java.util.ListIterator;
 
 public class Example3IndexOf {
 
@@ -26,6 +27,28 @@ public class Example3IndexOf {
 				// an element in the list
                 int lastindexof = list.lastIndexOf(50);
                 System.out.println("The last index of 50 "+lastindexof);
+                
+           ListIterator listitr =  list.listIterator() ;
+           
+           
+           //forward iteration
+           System.out.println("Forward Traversal");
+           while(listitr.hasNext()) {
+        	   System.out.println(listitr.next());
+           }
+         //backward iteration
+           System.out.println("backward Traversal");
+           while(listitr.hasPrevious()) {
+        	   System.out.println(listitr.previous());
+           }
+           
+           
+           
+           boolean result = list.get(4).equals(50);
+           System.out.println(result);
+           
+           boolean con = list.contains(30);
+           System.out.println(con);
 
 	}
 

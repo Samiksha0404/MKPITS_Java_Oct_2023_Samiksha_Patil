@@ -26,7 +26,12 @@ public class Example4_RemoveMethod {
 	
 	al.remove("Samiksha");
 	System.out.println(al);
-	System.out.println("the index of patil is"+al.indexOf("Patil"));
+	System.out.println("the index of patil is "+al.indexOf("Patil"));
+	
+	
+//	al.removeAll(al);
+//	System.out.println(al);
+//	System.out.println(al.isEmpty());
 	}
 
 }
