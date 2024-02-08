@@ -4,3 +4,6 @@
 [submodule "MKPITS_HTML_SAMIKSHA_PATIL"]
 	path = MKPITS_HTML_SAMIKSHA_PATIL
 	url = https://github.com/Samiksha0404/MKPITS_HTML_SAMIKSHA_PATIL.git
+[submodule "MKPITS_CSS_SAMIKSHA_PATIL"]
+	path = MKPITS_CSS_SAMIKSHA_PATIL
+	url = https://github.com/Samiksha0404/MKPITS_CSS_SAMIKSHA_PATIL.git
