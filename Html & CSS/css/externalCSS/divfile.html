@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding-left: 0px;
+      }
+      .container {
+        background-color: black;
+        padding: 10px;
+        /* padding: right 50px; */ /* This line has a syntax error, I've commented it out */
+        color: bisque;
+        text-align: right;
+      }
+      .container > div {
+        padding: 8px;
+        display: inline;
+      }
+      .container img {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        float: left;
+        bottom: 5px;
+      }
+      /* Add hover effect to anchor tags */
+      a:hover {
+        color: yellowgreen;
+        cursor: all-scroll;
+      }
+      a {
+        color: bisque;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="images/rangerover.jpg" alt="" />
+      <div><a href="">|HOME|</a></div>
+      <div><a href="">|ABOUT|</a></div>
+      <div><a href="">|SEARCH|</a>|</div>
+      <div><a href="">|HELP|</a></div>
+      <div></div>
+    </div>
+  </body>
+</html>

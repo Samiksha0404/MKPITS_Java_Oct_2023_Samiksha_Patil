@@ -1,0 +1,8 @@
+body {
+  color: rgb(03, 105, 180);
+  /* direction: rtl; */
+  /* direction: ltr; */
+  /* text-align: start; */
+  /* text-align: end; */
+  text-align: right;
+}

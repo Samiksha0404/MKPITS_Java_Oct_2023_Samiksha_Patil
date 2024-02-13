@@ -1,0 +1,10 @@
+body {
+  color: brown;
+  /* text-decoration: underline; */
+  /* letter-spacing: 10px; */
+  text-align: center;
+  text-shadow: 3px 4px 5px blueviolet;
+  text-transform: uppercase;
+  /* text-transform is used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word. We can set this property to none, uppercase, lowercase or capitalize.
+ */
+}

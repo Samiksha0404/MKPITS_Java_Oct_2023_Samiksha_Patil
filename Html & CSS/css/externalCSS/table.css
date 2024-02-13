@@ -1,0 +1,23 @@
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border: 4px orchid solid;
+}
+table {
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: aquamarine;
+  width: 50%;
+}
+caption {
+  caption-side: top;
+  color: blueviolet;
+  font-size: larger;
+  font-weight: bold;
+}
+th {
+  height: 14px;
+}

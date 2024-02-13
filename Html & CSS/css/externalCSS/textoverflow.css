@@ -1,0 +1,18 @@
+div {
+  color: darkgreen;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  text-shadow: 3px 4px 5px blueviolet;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+p {
+  line-height: 50px;
+  color: darkblue;
+  font-weight: bold;
+  text-overflow: ellipsis;
+}
+span {
+  vertical-align: super;
+}

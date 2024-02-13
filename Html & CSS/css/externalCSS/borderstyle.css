@@ -1,0 +1,20 @@
+#p1 {
+  border-style: dotted;
+}
+#p2 {
+  border-style: dotted;
+  /* border-width: thick medium 5px; */
+}
+#p3 {
+  border: solid;
+}
+#p4 {
+  border-style: double;
+  border-color: darkgreen;
+}
+#p5 {
+  border: 10px solid navy;
+}
+#p6 {
+  border: green;
+}

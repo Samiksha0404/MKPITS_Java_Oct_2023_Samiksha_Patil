@@ -1,0 +1,21 @@
+div {
+  color: darkgreen;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  text-shadow: 3px 4px 5px blueviolet;
+  text-transform: uppercase;
+}
+p {
+  line-height: 50px;
+  color: darkblue;
+  font-weight: bold;
+  white-space: 30px;
+  word-spacing: 10px;
+  text-align-last: center;
+  /* The text-align-last property specifies how to align the last line of a text. The text-align-last property will only work for elements with the text-align property set to "justify". We can set this property to auto, left, right, center, justify, start, or end.
+ */
+}
+span {
+  vertical-align: super;
+}

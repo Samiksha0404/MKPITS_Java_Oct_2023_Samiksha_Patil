@@ -1,0 +1,21 @@
+body {
+  background-image: url("bg.jpg");
+  background-repeat: repeat-x;
+  /* no repeat will not repeat the image and will givw single image */
+  background-size: cover;
+  /* to strect the image on full screen */
+
+  background-position: center;
+  /* centre position gives image in the center */
+  background-color: hwb(52 18% 22%);
+  font-weight: 300;
+  color: beige;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+div {
+  border: 5px solid brown;
+  text-align: right;
+  background-position: right bottom;
+}

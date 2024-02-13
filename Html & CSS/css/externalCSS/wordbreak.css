@@ -1,0 +1,23 @@
+div {
+  color: darkgreen;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  text-shadow: 3px 4px 5px blueviolet;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+p {
+  line-height: 50px;
+  color: darkblue;
+  font-weight: bold;
+  word-break: break-all;
+  /* The word-break property specifies line breaking rules for non-CJK scripts. CJK scripts are Chinese, Japanese and Korean ("CJK") scripts. We can set this property to normal, break-all or keep-all.
+normal - Default value. Break words according to their usual rules
+break-all - Lines may break between any two letters
+keep-all - Breaks are prohibited between pairs of letters
+ */
+}
+span {
+  vertical-align: super;
+}

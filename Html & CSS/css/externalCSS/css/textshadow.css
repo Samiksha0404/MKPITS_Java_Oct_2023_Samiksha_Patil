@@ -1,0 +1,12 @@
+body {
+  color: brown;
+  /* text-decoration: underline; */
+  /* letter-spacing: 10px; */
+  text-align: center;
+  text-indent: 30%;
+  text-shadow: 3px 4px 5px blueviolet;
+}
+span {
+  font-size: xx-small;
+  color: #000;
+}

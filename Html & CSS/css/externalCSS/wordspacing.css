@@ -1,0 +1,20 @@
+div {
+  color: darkgreen;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  text-shadow: 3px 4px 5px blueviolet;
+  text-transform: uppercase;
+}
+p {
+  line-height: 50px;
+  color: darkblue;
+  font-weight: bold;
+  white-space: 30px;
+  word-spacing: 10px;
+  /* It specifies how white space inside an HTML element is handled. We can set this property to normal, pre, nowrap, pre-line or pre-wrap.
+ */
+}
+span {
+  vertical-align: super;
+}

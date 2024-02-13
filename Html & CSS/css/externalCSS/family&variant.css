@@ -1,0 +1,23 @@
+div {
+  color: darkgreen;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  text-shadow: 3px 4px 5px blueviolet;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+p {
+  line-height: 50px;
+  padding: 10px;
+  color: darkblue;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: expanded;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-variant: small-caps;
+}
+span {
+  vertical-align: super;
+}
