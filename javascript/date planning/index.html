@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date Calculation</title>
+    
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: start;
+        align-items: center;
+        background-image: url(img/vacation2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        justify-content: center;
+        border: 2px solid rgb(138, 132, 132);
+        box-shadow: 0px 5px 20px rgb(222, 219, 219);
+        height: 200px;
+        width: 400px;
+        backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.5
+        ); /* Add a semi-transparent background color to improve readability */
+      }
+      #heading {
+        position: relative;
+        bottom: 140px;
+        left: 70vh;
+        color: rgb(236, 104, 153);
+      }
+      .date-input {
+        margin-bottom: 20px;
+      }
+      #result {
+        color: rgba(2, 52, 19, 0.702); /* Change the text color to white */
+        font-size: 20px; /* Increase the font size for better visibility */
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="heading"><h1>Plan Your Vacation!!🌴🍸</h1></div>
+
+    <div class="container">
+      <div class="date-input">
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" />
+      </div>
+      <div class="date-input">
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" />
+      </div>
+      <div>
+        <input type="checkbox" id="saturday" />
+        <label for="saturday">Saturday</label>
+        <input type="checkbox" id="sunday" />
+        <label for="sunday">Sunday</label>
+      </div>
+      <button onclick="calculateDays()">Calculate</button>
+      <p id="result"></p>
+    </div>
+
+    <script>
+      function calculateDays() {
+        var startDate = new Date(document.getElementById("start-date").value);
+        var endDate = new Date(document.getElementById("end-date").value);
+        var saturdayCheckbox = document.getElementById("saturday");
+        var sundayCheckbox = document.getElementById("sunday");
+        var totalDays = 0;
+
+        for (
+          var date = startDate;
+          date <= endDate;
+          date.setDate(date.getDate() + 1)
+        ) {
+          if (
+            date.getDay() !== 0 &&
+            date.getDay() !== 6 &&
+            (!saturdayCheckbox.checked || date.getDay() !== 6) &&
+            (!sundayCheckbox.checked || date.getDay() !== 0)
+          ) {
+            // Not Sunday or Saturday or not selected by the user
+            totalDays++;
+          }
+        }
+
+        document.getElementById("result").textContent =
+          "Total days (excluding Saturdays and Sundays): " + totalDays;
+      }
+    </script>
+  </body>
+</html>

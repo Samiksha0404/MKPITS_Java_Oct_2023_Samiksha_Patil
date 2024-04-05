@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date Range with Weekend Checkbox</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .date-input {
+        margin-bottom: 20px;
+      }
+      .calendar-container {
+        width: 300px;
+        height: 300px;
+        border: 1px solid #ccc;
+        overflow: auto;
+        margin-left: 20px;
+      }
+      .calendar-iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="date-input">
+        <label for="start-date">Start Date:</label>
+        <input type="text" id="start-date" placeholder="YYYY-MM-DD" />
+      </div>
+      <div class="date-input">
+        <label for="end-date">End Date:</label>
+        <input type="text" id="end-date" placeholder="YYYY-MM-DD" />
+      </div>
+      <div class="date-input">
+        <input type="checkbox" id="saturday-checkbox" />
+        <label for="saturday-checkbox">Include Saturdays</label>
+      </div>
+      <div class="date-input">
+        <input type="checkbox" id="sunday-checkbox" />
+        <label for="sunday-checkbox">Include Sundays</label>
+      </div>
+      <button id="calculate-button">
+        Calculate Total Days (Excluding Weekends)
+      </button>
+      <p id="total-days"></p>
+    </div>
+
+    <div class="calendar-container">
+      <iframe
+        class="calendar-iframe"
+        src="https://calendar.google.com/calendar/embed"></iframe>
+    </div>
+
+    <script>
+      function isSaturday(date) {
+        return date.getDay() === 6; // Saturday is 6
+      }
+
+      function isSunday(date) {
+        return date.getDay() === 0; // Sunday is 0
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const startDateInput = document.getElementById("start-date");
+        const endDateInput = document.getElementById("end-date");
+        const saturdayCheckbox = document.getElementById("saturday-checkbox");
+        const sundayCheckbox = document.getElementById("sunday-checkbox");
+        const calculateButton = document.getElementById("calculate-button");
+        const totalDaysElement = document.getElementById("total-days");
+
+        startDateInput.addEventListener("input", function () {
+          endDateInput.setAttribute("min", startDateInput.value);
+        });
+
+        endDateInput.addEventListener("input", function () {
+          startDateInput.setAttribute("max", endDateInput.value);
+        });
+
+        calculateButton.addEventListener("click", function () {
+          const startDate = new Date(startDateInput.value);
+          const endDate = new Date(endDateInput.value);
+          let currentDate = new Date(startDate);
+          let totalDays = 0;
+
+          while (currentDate <= endDate) {
+            if (
+              (isSaturday(currentDate) && saturdayCheckbox.checked) ||
+              (isSunday(currentDate) && sundayCheckbox.checked)
+            ) {
+              // Do nothing, don't include weekend days
+            } else {
+              totalDays++;
+            }
+            currentDate.setDate(currentDate.getDate() + 1);
+          }
+          totalDaysElement.textContent = `Total days  : ${totalDays}`;
+        });
+      });
+    </script>
+  </body>
+</html>
