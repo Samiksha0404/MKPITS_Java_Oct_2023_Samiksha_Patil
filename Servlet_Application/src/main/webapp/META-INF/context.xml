@@ -1,0 +1,8 @@
+<context>
+<Resource name ="jdbc/web_student_tracker"
+auth="Container" type="javax.sql.DataSource"
+ maxActive="20" maxIdle="5" maxWait="10000"
+  username="" password="" driverClassName="com.mysql.cj.jdbc.Driver"
+  url="jdbc:mysql://Localhost:3306/destinyhub_smart_news"
+  />
+  </context>
