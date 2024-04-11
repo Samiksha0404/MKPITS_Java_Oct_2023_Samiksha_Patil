@@ -1,4 +1,4 @@
-package com.leetcodes.problems;
+package com.leetcode.problems;
 
 public class Probem09 {
 
