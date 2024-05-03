@@ -1,0 +1,4 @@
+<context>
+<Resource name="jdbc/bookstore" auth="Container" type="javax.sql.DataSource" maxActive="20" maxIdel="5" maxWait="10000"
+username="root" password=""
+driverClassName="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/bookstore"/></context>
