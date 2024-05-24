@@ -1,0 +1,9 @@
+
+{
+java:S1192V"GDefine a constant instead of duplicating this literal "bookId" 3 times.b 23ca57ea6bb1d2e998cbaa6203eab835h
+n
+java:S1161#":Add the "@Override" annotation above this method signatureb e194e70fa88fb46dba684dafa1710d2ah
+|
+java:S1989B"AHandle the "ServletException" thrown here in a "try/catch" block.8¯ðÊ¦ñ1b 87b98dee60f0bd61b50ef427ec1595f2h
+©
+java:S1130G"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.8ÂøÒ¦ñ1b ad249e05eb304d96ade91e500634f62ah

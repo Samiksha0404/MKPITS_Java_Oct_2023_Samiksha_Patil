@@ -1,0 +1,105 @@
+package com.mkpits.cfs;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class UseMath {
+	
+ static BufferedReader reader;
+ String name, mobile,email, age , gender;
+ int accountNum;
+ double  balance;
+ 
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		// TODO Auto-generated method stub
+		
+		UseMath obj = new UseMath();
+		
+		reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		char ch='y';
+		
+		while( ch=='Y'|| ch=='y')
+		{
+			System.out.println("Enter your choice\n 1.Create Account \n 2.Deposit "
+					+ "\n 3. Withdraw \n 4.Check Balance \n 5.Account Details");
+			
+					int choice = Integer.parseInt(reader.readLine());
+			
+		switch (choice) {
+			case 1:
+				obj.createAccount();
+				break;
+			
+            case 2:
+				 obj.deposit();
+				break;
+				
+            case 3:
+				obj.withdraw();
+				break;
+			
+           case 4:
+	            obj.checkBalance();
+	           break;
+
+           case 5:
+	           obj.accountDetails();
+	         break;
+	         
+	         default:
+	        	 System.out.println("Invalid Choice");
+	        	 break;
+
+			
+			}
+			
+		}
+	
+
+	}
+
+	private void accountDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void checkBalance() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void withdraw() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void deposit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void createAccount() throws IOException {
+		// TODO Auto-generated method stub
+		System.out.println("Enter Account Holder Name");
+		name = reader.readLine();	
+		
+		System.out.println("Enter Mobile");
+		mobile = reader.readLine();	
+		
+		System.out.println("Enter Email");
+		email = reader.readLine();	
+		
+		System.out.println("Enter Gender");
+		gender = reader.readLine();	
+		
+		System.out.println("Enter Age");
+		age = reader.readLine();	
+		
+		accountNum =(int) Math.floor(Math.random()*1000);
+		System.out.println("Your account is created :"+accountNum);
+		
+	}
+
+}

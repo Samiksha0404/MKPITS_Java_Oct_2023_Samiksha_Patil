@@ -1,0 +1,25 @@
+
+n
+java:S11612":Add the "@Override" annotation above this method signatureb e194e70fa88fb46dba684dafa1710d2ah
+Š
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.8íÖ×¿ô1b e775fdb22d8a8004d67952cbcaa68c5ch
+ƒ
+java:S2095A"HUse try-with-resources or close this "Connection" in a "finally" clause.8íÖ×¿ô1b f575ab0c438d8add6a29575b775cc0c2h
+u
+java:S1161$":Add the "@Override" annotation above this method signature8íÖ×¿ô1b e37f0136aa3ffaf149b351f6a4c948e9h
+œ
+java:S19896"aHandle the following exceptions that could be thrown by "addData": ServletException, IOException.8íÖ×¿ô1b f4158d1a24c36da424e88a762341ab75h
+r
+java:S1854>"7Remove this useless assignment to local variable "out".8íÖ×¿ô1b 8d4d3dc54ddf9246e279c2d6b950826fh
+u
+java:S1161;":Add the "@Override" annotation above this method signature8íÖ×¿ô1b afaa9e78302a844691c224dc41a65519h
+
+java:S2147U"DCombine this catch with the one at line 82, which has the same body.8íÖ×¿ô1b 32d2349a124d3689ca106035b2f2e2f5h
+
+java:S2147X"DCombine this catch with the one at line 85, which has the same body.8íÖ×¿ô1b 87831d8b20e9ee815cc1b41055ddc1eah
+c
+java:S1481>"(Remove this unused "out" local variable.8íÖ×¿ô1b c68271a63ddbc431c307beb7d2918275h
+d
+java:S2115A")Add password protection to this database.8íÖ×¿ô1b f575ab0c438d8add6a29575b775cc0c2h
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.8íÖ×¿ô1b 24d8f1340c0c210bb5d9166ff15b998fh

@@ -1,0 +1,15 @@
+package com.mkpits.loops;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		try {
+			int x = 10, y = 0;
+			int total = y / x;
+			System.out.println(total);
+		} catch (Exception e) {
+			System.out.println("not possible");
+		}
+
+	}
+}

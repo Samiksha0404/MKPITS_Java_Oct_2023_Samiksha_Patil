@@ -1,0 +1,14 @@
+
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b d9dee1dfacbe33152f77eb00f62bff22h
+”
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").8øŠò®Ò1b a4f5c9920c2235bcf03341de5d2e2d58h
+e	java:S106"+Replace this use of System.out by a logger.8øŠò®Ò1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106!"+Replace this use of System.out by a logger.8¹œ¾°Ò1b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").8öİ°Ò1b a4f5c9920c2235bcf03341de5d2e2d58h
+v	java:S125-"<This block of commented-out lines of code should be removed.8öİ°Ò1b 9e5600df7998349521ef3d8420e1ea96h
+e	java:S106"+Replace this use of System.out by a logger.8Âç°Ò1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8“Šì°Ò1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106$"+Replace this use of System.out by a logger.8¯Şî°Ò1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106'"+Replace this use of System.out by a logger.8†Ëğ°Ò1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106*"+Replace this use of System.out by a logger.8¿ƒ•±Ò1b bb1c3f2ea781263d3a2bb92b06a2061fh

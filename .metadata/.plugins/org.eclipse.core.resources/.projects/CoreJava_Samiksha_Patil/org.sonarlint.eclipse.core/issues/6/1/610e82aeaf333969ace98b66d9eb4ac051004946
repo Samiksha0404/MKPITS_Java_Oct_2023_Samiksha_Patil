@@ -1,0 +1,14 @@
+
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 4028d6d428ec43ba5abc0ce8eb446727h
+j
+java:S3740"/Provide the parametrized type for this generic.8şÉÏÕ1b 2187e1021a911b3807cc1bea2eb1a9cah
+j
+java:S3740"/Provide the parametrized type for this generic.8şÉÏÕ1b 2187e1021a911b3807cc1bea2eb1a9cah
+”
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").8şÉÏÕ1b a4f5c9920c2235bcf03341de5d2e2d58h
+‹
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".8şÉÏÕ1b 2187e1021a911b3807cc1bea2eb1a9cah
+‹
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".8şÉÏÕ1b 47d0239d447bb4d61724352320306ebfh
+e	java:S106"+Replace this use of System.out by a logger.8şÉÏÕ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8şÉÏÕ1b bb1c3f2ea781263d3a2bb92b06a2061fh

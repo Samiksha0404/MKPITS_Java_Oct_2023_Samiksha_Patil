@@ -1,0 +1,12 @@
+
+r
+java:S1854"7Remove this useless assignment to local variable "arr".8Û°ˆ‡Ñ1b de894333e4e14ff377af72431376a6beh
+Z
+java:S1659"Declare "y" on a separate line.8Û°ˆ‡Ñ1b 415290769594460e2e485922904f345dh
+e
+java:S1197"*Move the array designators [] to the type.8Û°ˆ‡Ñ1b f0ff4deb6b15e321119745ccfd082053h
+c
+java:S1481"(Remove this unused "arr" local variable.8Û°ˆ‡Ñ1b 47c80780ab608cc046f2a6e6f071feb6h
+e	java:S106"+Replace this use of System.out by a logger.8Û°ˆ‡Ñ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+r
+java:S3518"7Make sure "y" can't be zero before doing this division.8¦æ‰‡Ñ1b 415290769594460e2e485922904f345dh

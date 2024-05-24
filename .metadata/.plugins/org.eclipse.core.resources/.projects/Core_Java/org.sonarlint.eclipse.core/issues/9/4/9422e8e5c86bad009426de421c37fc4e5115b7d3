@@ -1,0 +1,11 @@
+
+ç
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").b e204bcb7a1d997ac32cf2ef8abdad98fh
+ç
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").b e204bcb7a1d997ac32cf2ef8abdad98fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106%"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+o	java:S125&"<This block of commented-out lines of code should be removed.b 9ac43522f630854d20031417b431edech
+^	java:S106,"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S1060"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S1067"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

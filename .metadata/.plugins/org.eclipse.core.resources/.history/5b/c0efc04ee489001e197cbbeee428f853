@@ -1,0 +1,20 @@
+package com.mkpits.datatypes;
+
+public class IntegralDtatype {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int sam= 1234;
+  long num=8795564;
+       short hero= 123;
+       float percent = 89.49f;
+       double percentOfMax = 89.67;
+       System.out.println("percentOfMax "+percentOfMax );
+       System.out.println("percent "+percent );
+       System.out.println("hero "+hero );
+       System.out.println("number "+num );
+       System.out.println("sam "+sam );
+       
+	}
+
+}

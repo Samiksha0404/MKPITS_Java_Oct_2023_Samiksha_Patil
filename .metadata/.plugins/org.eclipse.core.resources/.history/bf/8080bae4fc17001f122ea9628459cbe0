@@ -1,0 +1,10 @@
+package com.mkpits.loops;
+
+public class fordemo {
+	public static void main(String args[]) {
+		int num = 10;
+		for (int inner = 0; inner < num; inner++) {
+			System.out.println("list of whole numbers" + num);
+		}
+	}
+}

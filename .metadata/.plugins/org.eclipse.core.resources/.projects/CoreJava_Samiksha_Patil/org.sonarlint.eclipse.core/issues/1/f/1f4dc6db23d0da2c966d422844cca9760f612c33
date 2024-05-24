@@ -1,0 +1,16 @@
+
+l
+java:S1854"8Remove this useless assignment to local variable "name".b f7a4bb98aff7dff87f73bf7c24898179h
+f
+java:S1135"2Complete the task associated to this TODO comment.b 36364ec9aa2f0995d283c1c6a92d2e5ch
+^
+java:S1197"*Move the array designators [] to the type.b 188429023cfd7bc7e176b15cc47d0b55h
+]
+java:S1481")Remove this unused "name" local variable.b b068931cc450442b63f5b3d276ea4297h
+j
+java:S1854"6Remove this useless assignment to local variable "ch".b d8b13af46a8b451fa965c1fd10052fa8h
+^
+java:S1197"*Move the array designators [] to the type.b 94120fd86d85cb7eef9959b73fda9d00h
+[
+java:S1481"'Remove this unused "ch" local variable.b d88fc6edf21ea464d35ff76288b84103h
+\	java:S108")Either remove or fill this block of code.b f95b70fdc3088560732a5ac135644506h

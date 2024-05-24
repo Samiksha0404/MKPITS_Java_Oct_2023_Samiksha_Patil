@@ -3,7 +3,7 @@ package com.mkpits.registration;
 public class ModelClass {
 	int id;
  String name;
- long mobile;
+ String mobile;
 
  String city;
  String gender;
@@ -11,7 +11,7 @@ public class ModelClass {
 
  String email;
  String password;
-public ModelClass(int id, String name, long mobile, String city, String gender, String age, String email,
+public ModelClass(int id, String name, String mobile, String city, String gender, String age, String email,
 		String password) {
 	super();
 	this.id = id;
@@ -23,7 +23,7 @@ public ModelClass(int id, String name, long mobile, String city, String gender, 
 	this.email = email;
 	this.password = password;
 }
-public ModelClass(String name, long mobile, String city, String gender, String age, String email, String password) {
+public ModelClass(String name, String mobile, String city, String gender, String age, String email, String password) {
 	super();
 	this.name = name;
 	this.mobile = mobile;
@@ -45,10 +45,10 @@ public String getName() {
 public void setName(String name) {
 	this.name = name;
 }
-public long getMobile() {
+public String getMobile() {
 	return mobile;
 }
-public void setMobile(long mobile) {
+public void setMobile(String mobile) {
 	this.mobile = mobile;
 }
 public String getCity() {

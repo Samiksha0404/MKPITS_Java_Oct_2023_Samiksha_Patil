@@ -1,0 +1,15 @@
+package com.mkpits.loops;
+
+public class whiledemo {
+
+	public static void main(String[] args) {
+		int num = 1, len = 10;
+		while (num <= len)
+			;
+		int table = 2 * num;
+		System.out.println(table);
+		num++;
+
+	}
+
+}

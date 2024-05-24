@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="get_form.jsp" method="post">
+	First Name : <input type="text" name="fname"> <br>
+	<br>Last Name : <input type="text" name="fname"> <br>
+	<select name="country">
+		<option>India</option>
+		<option>Japan</option>
+		<option>China</option>
+		<option>UK</option>
+		<option>UAE</option>
+	</select>
+	<br>
+	<input type="radio" name="favlang" value="JAVA">JAVA
+	<input type="radio" name="favlang" value="PYTHON">PYTHON
+	<input type="radio" name="favlang" value="PHP">PHP
+	<input type="radio" name="favlang" value="JAVASCIRPT">JAVASRCIPT
+	<br><br>
+	
+	<br>
+	<br>
+	<input type="checkbox" name="hobbies" value="JAVA">JAVA
+	<input type="checkbox" name="hobbies" value="PYTHON">PYTHON
+	<input type="checkbox" name="hobbies" value="PHP">PHP
+	<input type="checkbox" name="hobbies" value="JAVASCIRPT">JAVASRCIPT
+	<br>
+	<br>
+	<input type="submit"  value="submit">
+	</form>
+</body>
+</html>

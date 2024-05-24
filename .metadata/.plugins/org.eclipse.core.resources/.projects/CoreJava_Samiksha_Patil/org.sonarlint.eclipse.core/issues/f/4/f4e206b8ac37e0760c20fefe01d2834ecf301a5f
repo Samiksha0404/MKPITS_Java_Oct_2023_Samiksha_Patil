@@ -1,0 +1,33 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+q
+java:S2696"6Make the enclosing method "static" or remove this set.8–…ıé—1b 8def24c6f2087f4f9b2e04c3d6d559b7h
+p
+java:S2209"5Change this instance-reference to a static reference.8–…ıé—1b 9e925e9341b490bfd3b4c4ca3b0c1ef2h
+e	java:S106"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+q
+java:S2696"6Make the enclosing method "static" or remove this set.8–…ıé—1b ff9c63f843b11f9c3666fe46caaddea8h
+p
+java:S2209"5Change this instance-reference to a static reference.8–…ıé—1b 9e925e9341b490bfd3b4c4ca3b0c1ef2h
+e	java:S106"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+q
+java:S2696"6Make the enclosing method "static" or remove this set.8–…ıé—1b 8def24c6f2087f4f9b2e04c3d6d559b7h
+p
+java:S2209"5Change this instance-reference to a static reference.8–…ıé—1b 9e925e9341b490bfd3b4c4ca3b0c1ef2h
+p
+java:S2209""5Change this instance-reference to a static reference.8–…ıé—1b 9e925e9341b490bfd3b4c4ca3b0c1ef2h
+q
+java:S2696%"6Make the enclosing method "static" or remove this set.8–…ıé—1b ff9c63f843b11f9c3666fe46caaddea8h
+p
+java:S2209%"5Change this instance-reference to a static reference.8–…ıé—1b 9e925e9341b490bfd3b4c4ca3b0c1ef2h
+e
+java:S1197+"*Move the array designators [] to the type.8–…ıé—1b e4fc8cc2401c1d83dd6800eec0591ba7h
+e	java:S1064"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106:"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106A"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106F"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106K"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106M"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+á
+java:S2677O"LUse or store the value returned from "readLine" instead of throwing it away.8–…ıé—1b 05e60d83534fd68402281cdcbc4fcbf0h
+e	java:S106S"+Replace this use of System.out by a logger.8–…ıé—1b bb1c3f2ea781263d3a2bb92b06a2061fh

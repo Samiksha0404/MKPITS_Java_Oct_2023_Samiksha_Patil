@@ -1,0 +1,11 @@
+package com.mkpits.inheritance;
+
+public class Su extends Super2
+{
+	public Su() 
+	{
+		super();
+		System.out.println("Constructor");
+	}
+	
+}

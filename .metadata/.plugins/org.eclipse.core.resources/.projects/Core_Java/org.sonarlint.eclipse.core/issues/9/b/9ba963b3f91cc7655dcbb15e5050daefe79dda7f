@@ -1,0 +1,24 @@
+
+c
+java:S3740"/Provide the parametrized type for this generic.b 57a97a39435cfdfed96e03f2a3bc27ceh
+c
+java:S3740"/Provide the parametrized type for this generic.b 57a97a39435cfdfed96e03f2a3bc27ceh
+ç
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").b 4ce5ff9c982c797aeab04ccee8811c8bh
+i
+java:S1854"5Remove this useless assignment to local variable "d".b f26c1aed777119ab1d9607d9d72028e3h
+k
+java:S1854"7Remove this useless assignment to local variable "str".b 0145dfbade8efe621bf04fa614a15e79h
+j
+java:S1854"6Remove this useless assignment to local variable "v1".b 9d64f289cd239af8ed327ddaf4fcd36ah
+i
+java:S1854"5Remove this useless assignment to local variable "v".b fa984171c4269ce0b6b8478b74e84a5fh
+Z
+java:S1481"&Remove this unused "v" local variable.b 9e3669d19b675bd57058fd4664205d2ah
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+[
+java:S1481"'Remove this unused "v1" local variable.b 6654c734ccab8f440ff0825eb443dc7fh
+\
+java:S1481"(Remove this unused "str" local variable.b 341be97d9aff90c9978347f66f945b77h
+Z
+java:S1481"&Remove this unused "d" local variable.b 8277e0910d750195b448797616e091adh

@@ -1,0 +1,14 @@
+
+‚
+java:S1192"GDefine a constant instead of duplicating this literal "author" 3 times.8½ÔğŸñ1b 8df354e8d9c1a7e466dd6e4894e3f3c0h
+‚
+java:S1192!"GDefine a constant instead of duplicating this literal "genres" 3 times.8½ÔğŸñ1b 79aae3b97737d5f55a5ee24fb4623a48h
+y	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.b b0d4998a26f5b5742ad38c4af8817e32h
+„
+java:S1192#"IDefine a constant instead of duplicating this literal "synopsis" 3 times.8½ÔğŸñ1b 73e2ecf2e80c403c2d3971f66db79f70h
+
+java:S1192"FDefine a constant instead of duplicating this literal "title" 3 times.8½ÔğŸñ1b f155f31db3986e3049e0ecf170a035e4h
+e
+java:S1144."*Remove this unused private "close" method.8ÑïÃ¦ñ1b 716f6b30598ba30945d84485e61c1027h
+†
+java:S1192""KDefine a constant instead of duplicating this literal "characters" 3 times.8½ÔğŸñ1b 0b656b1cf0003fab968357e923f8e6b6h

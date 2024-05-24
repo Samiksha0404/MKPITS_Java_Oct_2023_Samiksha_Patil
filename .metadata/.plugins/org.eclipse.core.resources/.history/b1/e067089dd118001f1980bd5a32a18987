@@ -1,0 +1,63 @@
+package com.mkpits.collections;
+
+public class ModelClass {
+
+	
+		public ModelClass(int id, String name, int class1) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.class1 = class1;
+	}
+
+
+
+		public int getId() {
+		return id;
+	}
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+	public int getClass1() {
+		return class1;
+	}
+
+
+
+	public void setClass1(int class1) {
+		this.class1 = class1;
+	}
+
+
+
+		int id;
+		String name;
+	    int class1;
+	 
+	
+
+	@Override
+	public String toString() {
+		return "ModelClass [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
+
+}

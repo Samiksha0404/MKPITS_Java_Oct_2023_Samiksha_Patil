@@ -1,0 +1,16 @@
+package com.mkpits.collections;
+
+import java.util.ArrayList;
+
+public class ArraylistDemo {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> arrays = new ArrayList<Integer>(3);
+		arrays.add(3);
+		arrays.add(40);
+		arrays.add(242);
+		arrays.add(344);
+System.out.println("list" +arrays);
+	}
+
+}

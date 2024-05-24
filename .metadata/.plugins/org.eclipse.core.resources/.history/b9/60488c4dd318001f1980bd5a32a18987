@@ -1,0 +1,22 @@
+package com.mkpits.collections;
+
+import java.util.ArrayList;
+
+public class SecondNum {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> arr = new ArrayList<Integer>();
+		arr.add(23);
+		arr.add(23);
+		arr.add(35);
+		arr.add(12);
+		arr.add(9);
+		arr.add(56);
+		 
+		System.out.println(arr);
+		arr.add(1, 78);
+		
+
+	}
+
+}

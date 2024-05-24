@@ -1,0 +1,10 @@
+
+{
+java:S1192k"GDefine a constant instead of duplicating this literal "bookId" 3 times.b 23ca57ea6bb1d2e998cbaa6203eab835h
+n
+java:S1161":Add the "@Override" annotation above this method signatureb e37f0136aa3ffaf149b351f6a4c948e9h
+n
+java:S1161(":Add the "@Override" annotation above this method signatureb e194e70fa88fb46dba684dafa1710d2ah
+u
+java:S1989P"AHandle the "ServletException" thrown here in a "try/catch" block.b 24f5d84f505f512195f1e3d735ba740eh
+\	java:S108Y")Either remove or fill this block of code.b f95b70fdc3088560732a5ac135644506h

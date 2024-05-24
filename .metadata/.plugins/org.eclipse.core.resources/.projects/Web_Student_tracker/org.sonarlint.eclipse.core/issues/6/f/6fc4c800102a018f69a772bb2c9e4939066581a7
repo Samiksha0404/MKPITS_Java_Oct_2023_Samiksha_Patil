@@ -1,0 +1,9 @@
+
+v	java:S1252"<This block of commented-out lines of code should be removed.8ƒÀúâì1b 384a327836ae70cbe73e36bcd4b540ech
+x
+java:S2259O"DA "NullPointerException" could be thrown; "myStmt" is nullable here.b 0c473be33f4423a827004f7ffd9c8de7h
+w
+java:S1128"<Remove this unused import 'com.mysql.cj.protocol.Resultset'.8ÕàÔİì1b 57ba96cbedc2fe9d35c81e66a7412c7ch
+s
+java:S1128"8Remove this unused import 'com.mysql.cj.xdevapi.Result'.8ÕàÔİì1b 2ec59f2ed8ed72bcd490bf413d31c9f0h
+€	java:S112"FDefine and throw a dedicated exception instead of using a generic one.8ÕàÔİì1b b0d4998a26f5b5742ad38c4af8817e32h

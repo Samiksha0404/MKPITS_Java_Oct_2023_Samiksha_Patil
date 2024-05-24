@@ -24,7 +24,7 @@ public class BooksControllerServlet extends HttpServlet {
 	 *      response)
 	 */
 	private BooksDbUtil booksDbutil;
-	@Resource(name = "jdbc/bookstore")
+	@Resource(name = "jdbc/books_data")
 	private DataSource dataSource;
 
 	public void init() throws ServletException {

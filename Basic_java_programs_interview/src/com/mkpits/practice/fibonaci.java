@@ -1,0 +1,10 @@
+package com.mkpits.practice;
+
+public class fibonaci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

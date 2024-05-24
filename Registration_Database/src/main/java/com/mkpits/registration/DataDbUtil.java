@@ -43,7 +43,7 @@ public class DataDbUtil {
 			myStmt = myConn.prepareStatement(sql);
       
 			myStmt.setString(1, theData.getName());
-			myStmt.setLong(2, theData.getMobile());
+			myStmt.setString(2, theData.getMobile());
 			myStmt.setString(3, theData.getCity());
 			myStmt.setString(4, theData.getGender());
 			myStmt.setString(5, theData.getAge());

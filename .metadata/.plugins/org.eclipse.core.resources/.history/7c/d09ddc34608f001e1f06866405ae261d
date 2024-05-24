@@ -1,0 +1,55 @@
+package mkpits_method;
+
+public class MethodWithAgrument {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      String firstName = "Samiksha";
+      String lastName ="Patil";
+      String email = "samiksha@.com";
+      String password ="12345";
+      long mobile = 9675443234l;
+      char gender = 'F';  
+       
+      MethodWithAgrument m = new MethodWithAgrument();
+      m.getFirstName(firstName);
+      m.getLastName(lastName );
+      m.getEmail(email );
+      m.getPassword();
+      m.getMobile(mobile );
+      m.getGender('m');
+      
+	}
+
+	public void getGender(char ch) {
+		// TODO Auto-generated method stub
+		System.out.println(ch);
+	}
+
+	public void getPassword() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getMobile() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getLastName(String lname) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getEmail(tring) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getFirstName(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

@@ -1,0 +1,14 @@
+127.0.0.1 - - [29/Apr/2024:16:58:22 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:16:58:27 +0530] "GET /Books_Store/index.html HTTP/1.1" 200 1241
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:16:58:27 +0530] "GET /Books_Store/CSS/login-page.css HTTP/1.1" 404 790
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:16:58:27 +0530] "GET /Books_Store/styles.css HTTP/1.1" 404 778
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:16:58:27 +0530] "GET /Books_Store/image/3383078.jpg HTTP/1.1" 404 789
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:16:58:27 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:16:58:35 +0530] "GET /Books_Store/css/table.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:16:58:35 +0530] "GET /Books_Store/img/icons8-arrow-48.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:16:58:35 +0530] "GET /Books_Store/BooksControllerServlet HTTP/1.1" 500 3606788
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:17:00:30 +0530] "GET /Books_Store/index.html HTTP/1.1" 200 1241
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:17:00:30 +0530] "GET /Books_Store/css/login-page.css HTTP/1.1" 200 1979
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:17:00:30 +0530] "GET /Books_Store/styles.css HTTP/1.1" 404 778
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:17:00:30 +0530] "GET /Books_Store/image/3383078.jpg HTTP/1.1" 404 789
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:17:00:42 +0530] "GET /Books_Store/BooksControllerServlet HTTP/1.1" 500 3478935

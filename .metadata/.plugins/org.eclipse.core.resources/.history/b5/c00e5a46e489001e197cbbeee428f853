@@ -1,0 +1,10 @@
+package com.mkpits.datatypes;
+
+public class IntegralDtatype {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

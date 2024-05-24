@@ -1,0 +1,16 @@
+package com.mkpits.inheritance;
+
+public class Super2 {
+	
+	int x;
+	public Super2() 
+	{
+		System.out.println("No argunment constructor");
+	}
+	
+	Super2(int x)
+	{
+		this.x=x;
+	}
+
+}

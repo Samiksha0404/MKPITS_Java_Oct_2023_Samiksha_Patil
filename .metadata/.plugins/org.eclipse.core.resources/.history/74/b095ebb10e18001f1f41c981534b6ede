@@ -1,0 +1,22 @@
+package com.mkpits.loops;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+	
+//outer try  block
+		
+		try {
+			try {
+				int a=2, b=0;
+						System.out.println(a/b);
+			} catch (ArithmeticException e) {
+				System.out.println("Arithmetic Exception occurs ");
+			}
+		} catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println(e);  
+
+		}
+	}
+}
+

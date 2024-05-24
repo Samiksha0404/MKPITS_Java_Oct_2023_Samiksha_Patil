@@ -1,0 +1,14 @@
+
+}
+java:S1192"IDefine a constant instead of duplicating this literal " attempt" 3 times.b 1122765b53f52c08a67c7d1fc8cad9aeh
+f
+java:S1135"2Complete the task associated to this TODO comment.b 36364ec9aa2f0995d283c1c6a92d2e5ch
+]
+java:S2140")Use "java.util.Random.nextInt()" instead.b 3de8353f9a30b5d10e2f7c496ecab616h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106$"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106&"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106)"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

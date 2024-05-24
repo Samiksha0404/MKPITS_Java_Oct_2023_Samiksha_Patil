@@ -1,0 +1,19 @@
+package com.mkpits.collections;
+
+import java.util.ArrayList;
+
+public class ModelLogic {
+
+	public static void main(String[] args) {
+		
+     ArrayList<ModelClass> arr = new ArrayList<ModelClass>();
+     
+     arr.add(new ModelClass(67, "samiksha", 3));
+     arr.add(new ModelClass(65, "samiksha", 3));
+     arr.add(new ModelClass(674, "samiksha", 3));
+    
+     
+     System.out.println(arr);
+	}
+
+}

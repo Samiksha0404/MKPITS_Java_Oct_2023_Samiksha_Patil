@@ -5,16 +5,43 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<script>
+ function checking(){
+	 
+	 let pass = document.getElementById("password");
+	 let cPass = document.getElementById("confirmPassword");
+	 if(pass.value === cPass.value){
+		 return true;
+	 }else{
+		alert("Password not matched refreshing the page!!");
+		 location.reload();
+		 return false;
+	 }
+	 
+ }
+ 
+ </script>
 </head>
 <body>
 <style>
     /* Style the form container */
     .container {
-      max-width: 600px;
+      max-width: 500px;
       margin: auto;
       padding: 20px;
       border: 3px solid black;
-      height: 640px ;
+      height: 630px ;
+      background-color: transparent ;
+      backdrop-filter: blur(30px);
+    }
+    body {
+      width:100%;
+      height:100%;
+      background-image: url('img/balloon.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; 
+     
     }
 
     /* Style the input fields */
@@ -25,7 +52,13 @@
       display: inline-block;
       border: 1px solid #ccc;
       box-sizing: border-box;
+      height:30px;
       
+    }
+    form{
+    width: 100%;
+    height:80%;
+
     }
 
     /* Style the submit button */
@@ -37,21 +70,28 @@
       border: none;
       cursor: pointer;
       width: 100%;
+      height:40px;
     }
+    select{
+    width: 100%;
+    height: 30px;}
 
     /* Style the submit button on hover */
     input[type=submit]:hover {
       color: black;
     }
+
+    #gender{
+    margin-top:8px}
   </style>
 </head>
 <body>
 
 <div class="container">
 
-  <h2>Enter your Details</h2>
+  <h2 align="center">Enter your Details</h2>
   
-  <form action="DataBaseController"  method ="get">
+  <form action="DataBaseController"  method ="get" onsubmit="return checking()">
   
     <label for="Name"> Name</label>
     <input type="text" id="first" name="Name" placeholder="Your full name..">
@@ -70,9 +110,8 @@
     <label for="Age">Age</label>
     <input type="text" id="first" name="Age" placeholder="Enter your age">
     <br>
-    <br>
     
-    <label for="Gender">Gender</label>
+    <label class="distance" for="Gender">Gender</label><br>
     <select id="gender" name="gender" required>
           <option value=" " > -select your gender- </option>
           <option value="male">Male</option>
@@ -81,7 +120,7 @@
           <option value="Gay">Gay</option>
           <option value="Other">Other</option>
           </select><br />
-    <br>
+ 
     <br>
     <label for="Password">Password</label>
     <input type="password" id="first" name="Password" placeholder="">

@@ -1,0 +1,51 @@
+package com.mkpits.arrays;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class SecondLargestNum {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		// TODO Auto-generated method stub
+		int temp, i ,j = 0 ;
+//	BufferedReader	br = new BufferedReader(new InputStreamReader(System.in));
+//	 System.out.println("Enter the 5 number");
+		
+		int num[] = {23,56,98,90,456,456};
+		
+		for (i = 0; i<num.length; i++) {
+			
+			for(  j=i+1 ; j<num.length;j++ ) {
+				
+				if(num[i]>num[j]) {
+					temp=num[i];
+					num[i]=num[j];
+					num[j]=temp;	
+				}
+			}
+			
+		}
+		int largest =num[num.length-1];
+		System.out.println(largest+"is largest element in the array");
+		
+		for(int i1=0;i1<num.length;i1++) {
+			if(largest>num[i1]) {
+				System.out.println(num[i]+" is the second largest");
+			}
+		}
+		
+		
+// to print sorted array:
+//		System.out.println("the sorted array is: ");
+//
+//		for (i = 0; i<num.length; i++) {
+//			
+//		System.out.println(num[i]);
+//		
+//}
+//		System.out.println();
+		
+	
+}
+}

@@ -1,0 +1,11 @@
+package com.mkpits.collections;
+
+public class ModelClass {
+
+	
+		int id;
+		String name;
+	 int class1
+	
+
+}

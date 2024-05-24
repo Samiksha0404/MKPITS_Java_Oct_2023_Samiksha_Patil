@@ -1,0 +1,9 @@
+package com.mkpits.inheritance;
+
+public class Su extends Super2
+{
+	public Super2() 
+	{
+		System.out.println("No argunment constructor");
+	}
+}

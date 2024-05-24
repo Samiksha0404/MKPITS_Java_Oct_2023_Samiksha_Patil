@@ -30,14 +30,16 @@ List<Student_Model> theStudents = (List<Student_Model>) request.getAttribute("ST
          <th>First Name</th>
         <th>Last Name</th>
         <th>Email</th>
+        
     </tr>
     <c:forEach var ="tempStudent" items ="${STUDENT_LIST}">
     
     <tr>
-           <td>${tempStudent.id} </td>
+                      <td>${tempStudent.id} </td>
                       <td>${tempStudent.firstName} </td>
                       <td>${tempStudent.lastName} </td>
                       <td>${tempStudent.email} </td>
+                     
            
                    
     </tr>

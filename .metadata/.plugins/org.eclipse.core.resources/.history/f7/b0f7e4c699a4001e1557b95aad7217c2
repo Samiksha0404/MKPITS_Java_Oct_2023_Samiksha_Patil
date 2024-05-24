@@ -1,0 +1,13 @@
+package com.mkpits.inheritance;
+
+public class Super2 {
+	
+	int x;
+	Super2(int x)
+	{
+		super();
+		this.x=x;
+		System.out.println(this.x);
+	}
+
+}

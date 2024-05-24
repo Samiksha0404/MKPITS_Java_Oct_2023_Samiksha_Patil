@@ -1,0 +1,18 @@
+
+k
+java:S3518"7Make sure "y" can't be zero before doing this division.b 415290769594460e2e485922904f345dh
+l
+java:S1854"8Remove this useless assignment to local variable "name".b a014eea0a05e5d8692c340db3e9cb0eah
+S
+java:S1659"Declare "y" on a separate line.b 415290769594460e2e485922904f345dh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+x
+java:S2147"DCombine this catch with the one at line 27, which has the same body.b d14c355ae9e8abfc8fbb90686c8a76f1h
+x
+java:S2147!"DCombine this catch with the one at line 30, which has the same body.b e1e88b9b0bd46191dcc5a68d14665befh
+]
+java:S1481")Remove this unused "name" local variable.b b068931cc450442b63f5b3d276ea4297h
+^	java:S106%"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

@@ -1,6 +1,12 @@
 package com.mkpits.registration;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import javax.annotation.Resource;
 import javax.servlet.RequestDispatcher;
@@ -47,7 +53,48 @@ public class DataBaseController extends HttpServlet {
 			
 			addData(request, response);	
 		
+		
 		}
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+			throws ServletException, IOException {
+		try {
+			PrintWriter out=response.getWriter();
+			response.setContentType("text/html");
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/registrationdatabase","root","");
+			String n=request.getParameter("Email").trim();
+			String p=request.getParameter("Password");
+			PreparedStatement ps=conn.prepareStatement("select Email from userdetails where Email=? and Password=?");
+			ps.setString(1, n);
+			ps.setString(2, p);
+			ResultSet rs= ps.executeQuery();
+			if(rs.next()) {
+				
+				RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
+				rd.forward(request, response);
+			}else {
+		
+				RequestDispatcher rd=request.getRequestDispatcher("login.jsp");
+				rd.forward(request, response);
+				
+			}
+		} catch (ClassNotFoundException e) {
+		
+			e.printStackTrace();
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+
+
 	
 
 
@@ -57,7 +104,7 @@ public class DataBaseController extends HttpServlet {
 		String city= request.getParameter("City");
 		String gender = request.getParameter("Gender");
 		String age = request.getParameter("Age");
-		Long mobile = Long.parseLong(request.getParameter("Mobile")) ;
+		String mobile = request.getParameter("Mobile") ;
 		String password = request.getParameter("Password");
 
 

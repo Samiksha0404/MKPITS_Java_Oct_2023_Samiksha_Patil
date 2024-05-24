@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;data&apos; in &apos;com.mkpits.arraylist.UserInput.main(...)&apos; to &apos;size&apos;&#x0D;&#x0A;- Original project: &apos;Core_Java&apos;&#x0D;&#x0A;- Original element: &apos;com.mkpits.arraylist.UserInput.main(String[]).data&apos;&#x0D;&#x0A;- Renamed element: &apos;data&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;data&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.mkpits.arraylist{UserInput.java[UserInput~main~\[QString;@data!466!508!470!473!I!0!false" name="size" references="true" stamp="1705486121111" version="1.0"/>
+</session>

@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>Books Store</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+	 body{
+		background-image: url("image/3383078.jpg") ; 
+	 } 
+	 
+  </style>
+  <link type="text/css" rel="stylesheet" href="css/login-page.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<link type="text/css" rel="stylesheet" href="css/style.css">
 <body>
-
-
-<h1 style="background-color: white;color: steelblue;">Welcome To Books Store !!</h1>
-
-<a class="but"href="BooksControllerServlet"><h3 style="color:coral;padding: 20px;background-color: aquamarine;">Click here for Books Data</h3>
-	</a>
+  <div class="wrapper">
+    <form action="">
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Username" required>
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password" required>
+        <i class='bx bxs-lock-alt' ></i>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox">Remember Me</label>
+        <a href="#">Forgot Password</a>
+      </div>
+      <button type="submit" class="btn"><a href="BooksControllerServlet">Login</a></button>
+      <div class="register-link">
+        <p>Dont have an account? <a href="#">Register</a></p>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
