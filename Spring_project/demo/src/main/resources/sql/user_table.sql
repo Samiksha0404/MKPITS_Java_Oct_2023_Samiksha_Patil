@@ -13,3 +13,7 @@ CREATE TABLE demoproject.users (
   updated_at DATETIME NULL,
   PRIMARY KEY (id),
   UNIQUE INDEX username_UNIQUE (username ASC) VISIBLE);
+
+  ALTER TABLE demoproject.users
+      DROP COLUMN username,
+      DROP INDEX username_UNIQUE ;

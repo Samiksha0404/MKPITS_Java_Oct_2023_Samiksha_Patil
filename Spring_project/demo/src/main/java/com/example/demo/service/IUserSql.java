@@ -12,6 +12,9 @@ public interface IUserSql {
 
     public UserDtoSql updateUser(UserDtoSql userDtoSql);
 
+    public UserDtoSql updatePatchUser(UserDtoSql userDtoSql);
 
     public UserDtoSql createUser(UserDtoSql userDtoSql);
+
+    public UserDtoSql deleteUserById(Integer id);
 }
