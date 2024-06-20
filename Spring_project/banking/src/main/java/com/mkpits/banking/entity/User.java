@@ -1,5 +1,5 @@
+package com.mkpits.banking.entity;
 
-package com.example.demo.mysql.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -11,28 +11,39 @@ import java.time.LocalDateTime;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
+@Entity //// The @Entity annotation is used to specify that the class is an entity and is mapped to a database table.
 @Builder
 @Table(name = "users")
-public class UserModel {
-
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     @Column(name = "id")
     private Integer id;
 
-
-    @Column(name = "first_name")
+    @Column(name = "firstname")
     private String firstName;
 
-    @Column(name = "last_name")
+    @Column(name = "middlename")
+    private String middleName;
+
+    @Column(name = "lastname")
     private String lastName;
+
+    @Column(name = "gender")
+    private String gender;
 
     @Column(name = "mobile")
     private String mobile;
 
     @Column(name = "email")
     private String email;
+
+    @Column(name = "address")
+    private String address;
+
+    @Column(name = "city")
+    private String city;
 
     @Column(name = "dob")
     private LocalDate dob;
@@ -49,3 +60,4 @@ public class UserModel {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 }
+

@@ -1,10 +1,8 @@
-
-package com.example.demo.mysql.model;
+package com.mkpits.banking.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Getter
@@ -12,30 +10,26 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Table(name = "accounts")
 @Builder
-@Table(name = "users")
-public class UserModel {
-
+public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private Integer id;
 
+    @Column(name = "user_id")
+    private Integer userId;
 
-    @Column(name = "first_name")
-    private String firstName;
 
-    @Column(name = "last_name")
-    private String lastName;
+    @Column(name = " account_type")
+    private String accountType;
 
-    @Column(name = "mobile")
-    private String mobile;
+    @Column(name = " rate_of_intrest")
+    private String rateOfInterest;
 
-    @Column(name = "email")
-    private String email;
+    @Column(name = "balance")
+    private String balance;
 
-    @Column(name = "dob")
-    private LocalDate dob;
 
     @Column(name = "created_by")
     private Integer createdBy;
