@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title> Admin Dashboard</title>
+    <link rel="stylesheet" href="/css/admin/style.css" />
+    <link
+            rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="side-header">
+        <h3><span>EverTrust Bank</span></h3>
+    </div>
+
+    <div class="side-content">
+        <div class="profile">
+            <div
+                    class="profile-img bg-img"
+                    style="background-image: url(/images/admin/3.jpeg)"></div>
+            <h4>Gati Meher</h4>
+            <small>Admin</small>
+        </div>
+
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="/admin/dashboard">
+                        <span class="las la-home"></span>
+                        <small>Dashboard</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="las la-user-alt"></span>
+                        <small>Profile</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/dashboard/usermanagement">
+                        <span class="las la-users"></span>
+                        <small>User Management</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/dashboard/employeemanagement">
+                        <span class="las la-user-tie"></span>
+                        <small>Employee Management</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="las la-hand-holding-usd"></span>
+                        <small>Transaction</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="las la-cog"></span>
+                        <small>Settings</small>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="main-content">
+  
+    <main>
+        <div class="page-header">
+            <h1  th:text="${customerDetalis.firstName}"></h1>
+            <h5><span th:text="${customerDetalis.email}"></span>
+                /<span th:text="${customerDetalis.mobile}"></span> /
+                <span th:text="${customerDetalis.gender}"></span></h5>
+            <small> Address</small>
+        </div>
+
+        <div class="page-content">
+            <div class="analytics">
+
+
+                <div class="record-header">
+                    <div class="add">
+
+                        <a th:href="@{'/admin/dashboard/usermanagement/addaccountregistration/' + ${customerDetalis.id}}">Add Account</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="records table-responsive">
+                <table width="100%">
+                    <thead>
+                    <tr>
+                        <th>CIN</th>
+                        <th>Account Type</th>
+                        <th>Account Number</th>
+                        <th>Opening Date</th>
+                        <th>Balance</th>
+                        <th>Delete</th>
+
+
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr th:each="user : ${customerDetailsFromAccount}">
+                        <td th:text="${customerDetalis.cin}"></td>
+                        <td th:text="${user.accType}"></td>
+                        <td th:text="${user.accNo}"></td>
+                        <td th:text="${user.openingDate}"></td>
+                        <td th:text="${user.balance}"></td>
+                        <td>
+                            <div class="actions">
+                                <a th:href="'/admin/dashboard/customerdetails/delete/'+ ${user .accNo}">
+                                    <span class="las la-trash"></span>
+                                </a>
+                            </div>
+                        <td/>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
