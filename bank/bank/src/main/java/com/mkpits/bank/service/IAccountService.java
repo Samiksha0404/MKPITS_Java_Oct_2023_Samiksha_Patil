@@ -1,7 +1,9 @@
 package com.mkpits.bank.service;
 
+import com.mkpits.bank.dto.MoneyTransferRequestDto;
 import com.mkpits.bank.dto.UserRequestDto;
 import com.mkpits.bank.dto.response.AccountResponseDto;
+import com.mkpits.bank.dto.response.MoneyTransferResponseDto;
 
 import java.util.List;
 
@@ -15,4 +17,5 @@ public interface IAccountService {
 
     UserRequestDto addAccount(UserRequestDto userRequestDto);
 
+    MoneyTransferResponseDto amountTransfer(MoneyTransferRequestDto transferRequest, Integer senderUserId);
 }

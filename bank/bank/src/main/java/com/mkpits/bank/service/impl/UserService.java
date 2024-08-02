@@ -5,9 +5,11 @@ import com.mkpits.bank.dto.response.UserResponseDto;
 import com.mkpits.bank.model.*;
 import com.mkpits.bank.repository.*;
 import com.mkpits.bank.service.IUserService;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -35,6 +37,10 @@ public class UserService implements IUserService {
 
     @Autowired
     DistrictRepository districtRepository;
+
+    @Autowired
+     BranchRepository branchRepository;
+
 
     public List<UserResponseDto> getAllUsers() {
         List<User> usersList = (List<User>) userRepo.findAll();
@@ -105,7 +111,7 @@ public class UserService implements IUserService {
 */
         account.setAccNo(String.format("%02d",state.getId())+String.format("%04d",district.getId())+String.format("%04d",city.getId())+finalAccountNumber);
         account.setOpeningDate(LocalDate.now());
-        account.setBalance(0.0);
+        account.setBalance(new BigDecimal("0.0"));
         account = accountRepository.save(account);
 
 
@@ -197,6 +203,8 @@ public class UserService implements IUserService {
         return UserResponseDto.builder().build();
     }
 
+
+
     private UserResponseDto convertUserToUserResponseDto2(User user) {
         return UserResponseDto.builder()
                 .firstName(user.getFirstName())
@@ -209,5 +217,27 @@ public class UserService implements IUserService {
                 .aadharNo(user.getAadharNo())
                 .build();
     }
+
+    @Override
+    public UserResponseDto getdetailsBybranchid(Integer id) {
+
+        Integer branchId = accountRepository.findBranchIdByUserId(id);
+
+        Optional<Branch>  branchModel = branchRepository.findById(branchId);
+        UserResponseDto userDto = new UserResponseDto();
+        if (branchModel.isPresent()) {
+            userDto = convertBranchToUserGetResponseDto(branchModel.get());
+        }
+        return userDto;
+    }
+
+    private UserResponseDto convertBranchToUserGetResponseDto(Branch branch) {
+        UserResponseDto userResponseDto = UserResponseDto.builder()
+                .ifsc(branch.getIfscCode())
+                .branchName(branch.getBranchName())
+                .build();
+        return userResponseDto;
+    }
 }
+
 

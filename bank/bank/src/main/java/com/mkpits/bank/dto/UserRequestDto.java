@@ -31,4 +31,8 @@ public class UserRequestDto {
     private String state;
     private double balance;
     private Integer userId;
+    //for branch
+    private String branchName;
+    private String BranchCode;
+    private String ifscCode;
 }

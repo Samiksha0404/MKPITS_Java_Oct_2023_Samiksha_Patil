@@ -65,10 +65,12 @@ public class AdminController {
 
     @GetMapping("/admin/dashboard/customerdetails/{userId}")
     public String adminCustomerAccounts(@PathVariable("userId") Integer userId, Model model) {
+
         UserResponseDto userReponseDto = iUserService.getUserByIdUser(userId);
-        List  <AccountResponseDto> accountResponceDto=iAccountService.getAllUserAccounts(userId);
+
         model.addAttribute("customerDetalis", userReponseDto);
-        model.addAttribute("customerDetailsFromAccount",accountResponceDto);
+        List  <AccountResponseDto> accountResponseDto=iAccountService.getAllUserAccounts(userId);
+        model.addAttribute("customerDetailsFromAccount",accountResponseDto);
         return "admin/customeraccounts";
     }
 

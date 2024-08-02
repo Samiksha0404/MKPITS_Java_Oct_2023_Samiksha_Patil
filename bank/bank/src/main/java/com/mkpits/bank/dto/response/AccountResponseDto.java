@@ -1,6 +1,7 @@
 package com.mkpits.bank.dto.response;
 import lombok.*;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 @Getter
 @Setter
@@ -13,7 +14,7 @@ public class AccountResponseDto {
     private Integer id;
     private Integer userId;
     private String accType;
-    private Double balance;
+    private BigDecimal balance;
     private String accNo;
     private Double rateOfInterest;
     private Integer branchId;

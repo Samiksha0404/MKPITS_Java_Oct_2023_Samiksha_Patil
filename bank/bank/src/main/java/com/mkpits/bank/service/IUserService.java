@@ -16,4 +16,6 @@ public interface IUserService {
    public UserResponseDto createUser(UserRequestDto userRequestDto);
 
     UserResponseDto updateUser(UserRequestDto userRequestDto);
+
+    UserResponseDto getdetailsBybranchid(Integer userId);
 }

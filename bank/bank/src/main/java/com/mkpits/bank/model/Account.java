@@ -2,6 +2,7 @@ package com.mkpits.bank.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Getter
@@ -21,7 +22,7 @@ public class Account {
     @Column(name = "account_type")
     private String accType;
     @Column(name = "balance")
-    private Double balance;
+    private BigDecimal balance;
     @Column(name = "account_number")
     private String accNo;
     @Column(name = "rate_of_interest")

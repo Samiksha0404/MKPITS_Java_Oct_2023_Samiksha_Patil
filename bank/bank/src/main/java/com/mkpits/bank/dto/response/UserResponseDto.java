@@ -33,4 +33,8 @@ public class UserResponseDto {
     private String pincode;
     private String userName;
     private String accountType;
+
+    private String branchName;
+    private String BranchCode;
+    private String ifsc;
 }
